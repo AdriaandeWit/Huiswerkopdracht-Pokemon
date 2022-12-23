@@ -2,13 +2,15 @@ public class Electric extends SuperPokemon {
 
     private int volt;
     private  boolean hasATail;
+    private  String lightningColor;
 
 
 
-    public Electric(String name, int healthPoint, String type, int experience, int level, int volt, boolean hasATail) {
+    public Electric(String name, int healthPoint, String type, int experience, int level, int volt, boolean hasATail, String lightningColor) {
         super(name, healthPoint, type, experience, level);
         this.volt = volt;
         this.hasATail = hasATail;
+        this.lightningColor = lightningColor;
 
     }
     @Override
@@ -50,7 +52,14 @@ public class Electric extends SuperPokemon {
         return hasATail;
     }
 
+    public String getLightningColor() {
+        return lightningColor;
+    }
+
     //setters
+     public void setLightningColor(String lightningColor) {
+           this.lightningColor = lightningColor;
+        }
     public void setVolt(int volt) {
         this.volt = volt;
     }
