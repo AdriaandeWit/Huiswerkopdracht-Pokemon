@@ -41,6 +41,11 @@ public class Electric extends SuperPokemon {
         System.out.println(super.getName() + "has a voltage :" + volt + "v" );
     }
 
+    public void lightningColor(){
+        System.out.println("the color of  " + getName()+ " is: " + lightningColor );
+
+    }
+
 
 
     //getters
