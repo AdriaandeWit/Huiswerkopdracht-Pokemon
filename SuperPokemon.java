@@ -1,4 +1,4 @@
-public class SuperPokemon {
+public abstract class SuperPokemon {
 
     private int healthPoint;
     private String Type;

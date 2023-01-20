@@ -3,7 +3,6 @@ public class Main {
 
 
         Fire charmender = new Fire("Charmender",90,"Fire",25,9,90.5,"Hondenvoer");
-        SuperPokemon pikachu = new SuperPokemon("Pikachu ",80,"electric",20,5 );
         Grass sunflora = new Grass("Sunflora", 20,"Grass", 2, 2,2,1);
         Grass venusaur = new Grass("Vanusaur",220, "Grass",50,100, 15,1);
         Water wartorle = new Water("wartorle",75, "water", 60,20,50,false);
@@ -12,7 +11,6 @@ public class Main {
 
 
         charmender.pound();
-        pikachu.pound();
         charmender.eat();
         sunflora.woodHammer();
         sunflora.leafStrom();
@@ -27,6 +25,13 @@ public class Main {
         raichu.lightningColor();
         magnemite.lightningColor();
         venusaur.leafStrom();
+        venusaur.woodHammer();
+        venusaur.amountofleaves();
+
+
+
+
+
 
     }
 }

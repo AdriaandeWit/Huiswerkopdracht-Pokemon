@@ -21,6 +21,10 @@ public class Grass extends SuperPokemon{
         System.out.println(super.getName() + "Does woodHammer");
     }
 
+    public void amountofleaves(){
+        System.out.println(super.getName()+"has " +  getAmountOfLeaves());
+    }
+
 
 
     //Get
